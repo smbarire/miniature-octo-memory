@@ -34,7 +34,7 @@ app.get('/api/products', async(req, res)=> {
         res.status(200).json(products);
      } catch (error)  {
         console.error("error fetching users:", error);
-        res.status(500).json({message: "internal server"}):
+        res.status(500).json({message: "internal server"})
      }
 });
 
